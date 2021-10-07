@@ -2,7 +2,7 @@
 A simple TODO Application with Kivy and Python.
 
 ## Accompanying article is at my Blog:
-### [Python is the Way Blog]("https://https://python-is-the-way.000webhostapp.com/2021/10/coding-a-complete-todo-app-using-kivy-python")
+### [Python is the Way Blog](https://python-is-the-way.000webhostapp.com/2021/10/coding-a-complete-todo-app-using-kivy-python)
 
 ## Setup (Linux, and Mac OS)
 
