@@ -1,0 +1,25 @@
+#:kivy 2.0.0
+
+BoxLayout:
+    orientation: 'vertical'
+
+    BoxLayout:
+        # This is our panel for housing todo items.
+        orientation: 'vertical'
+        id: todo_item_panel
+
+    BoxLayout:
+        orientation: 'horizontal'
+        size_hint_y: None
+        height: 40
+
+        TextInput:
+            hint_text: 'Enter a new todo item'
+            multiline: False
+            id: todo_item_input
+
+        Button:
+            text: 'Add Item'
+            size_hint_x: None
+            width: 80
+            on_touch_down: app.on_add_todo_item(args[0], args[1])
